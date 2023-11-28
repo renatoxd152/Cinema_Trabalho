@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "913569398492",
+    "project_id": "cinemafunciona",
+    "storage_bucket": "cinemafunciona.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913569398492:android:f1c3db4b38bc434526fe19",
+        "android_client_info": {
+          "package_name": "com.example.cinemafunciona"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxXU_o14p1tfMHYRJnN6JIBs1GUWM28Xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">prova</string>
+    <string name="cine">Cinema São Carlos</string>
+    <string name="cadastrar_atleta">Cadastrar Pessoa</string>
+    <string name="cadastrar_filme">Cadastrar Filme</string>
+    <string name="cadastrar_sessao">Cadastrar Sessão</string>
+    <string name="cadastrar_ingresso">Cadastrar Ingresso</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="347dp"
+        android:layout_height="445dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastre o ingresso com a pessoa:" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione a sessão:" />
+
+        <Spinner
+            android:id="@+id/sessaoSpinnerIngresso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione a pessoa:" />
+
+        <Spinner
+            android:id="@+id/pessoaIngresso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/cadastrarIngresso_Pessoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cadastrarIngresso"
+            android:text="Cadastrar Ingresso" />
+
+        <Button
+            android:id="@+id/cancelar4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="primeiraTela"
+            android:text="Cancelar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mostrarSessoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Sessões"
+        android:onClick="mostrarSessoes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
